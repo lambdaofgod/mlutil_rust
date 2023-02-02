@@ -3,5 +3,5 @@ requires = ["maturin>=0.14"]
 build-backend = "maturin"
 
 [project]
-name = "mlutil-rust"
+name = "mlutil_rust"
 version = "0.1.0"

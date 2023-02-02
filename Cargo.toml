@@ -1,5 +1,5 @@
 [package]
-name = "mlutil-rust"
+name = "mlutil_rust"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,5 +8,10 @@ name = "mlutil_rust"
 crate-type = ["cdylib"]
 
 [dependencies]
+regex = { version = "1.7.1", features = [] }
 pyo3 = { version = "0.16.4", features = ["extension-module"] }
-# polars = { git = "https://github.com/pola-rs/polars":
+lazy_static = "1.3.0"
+
+[package.metadata.maturin]
+name = "mlutil_rust.code_tokenization"
+
